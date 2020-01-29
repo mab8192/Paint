@@ -11,7 +11,9 @@ public class Application {
 	}
 	
 	public void run(){
-	
+		
+		System.out.println("Running...");
+
 		while(!w.shouldClose()){
 			try {
 				Thread.sleep(1);
